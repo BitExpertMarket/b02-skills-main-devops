@@ -1,12 +1,12 @@
-        # ☁️ Examples — DevOps Engineering Skills
+# ☁️ Examples — DevOps Engineering Skills
 
-        ## Quick Command Example
+## Quick Command Example
 
-        ```bash
-        /iac-tdd my-target --output md
-        ```
+```bash
+/iac-tdd my-target --output md
+```
 
-        **Output:**
+**Output:**
 
 
 ```
@@ -24,24 +24,24 @@ Slice #2/5: "node group scales on CPU > 70%"
   Next: "cluster upgrades without downtime"
 ```
 
-        ## Workflow Example
+## Workflow Example
 
-        ```bash
-        /workflows:infra-sprint my-target --scope full
-        ```
+```bash
+/workflows:infra-sprint my-target --scope full
+```
 
-        ```
-        ╔══════════════════════════════════════════════════════════╗
-        ║  Step 1/5  Discovery   ✓  Done                          ║
-        ║  Step 2/5  Analysis    ✓  Done                          ║
-        ║  Step 3/5  Planning    ⟳  Running …                    ║
-        ║  [████████████░░░░░░]  60%   ETA ~12 min                ║
-        ╚══════════════════════════════════════════════════════════╝
-        ```
+```
+╔══════════════════════════════════════════════════════════╗
+║  Step 1/5  Discovery   ✓  Done                          ║
+║  Step 2/5  Analysis    ✓  Done                          ║
+║  Step 3/5  Planning    ⟳  Running …                    ║
+║  [████████████░░░░░░]  60%   ETA ~12 min                ║
+╚══════════════════════════════════════════════════════════╝
+```
 
-        ## Tips
+## Tips
 
-        1. Start with `/iac-tdd` for a quick overview.
-        2. Use `--scope quick` for fast scans, `--scope full` for production.
-        3. Chain: run analysis first → use findings as input for planning.
-        4. `--output html` generates a stakeholder-ready report.
+1. Start with `/iac-tdd` for a quick overview.
+2. Use `--scope quick` for fast scans, `--scope full` for production.
+3. Chain: run analysis first → use findings as input for planning.
+4. `--output html` generates a stakeholder-ready report.
